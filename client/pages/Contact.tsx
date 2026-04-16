@@ -138,7 +138,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1 text-white">Lokasi</h3>
-                    <p className="text-slate-300">Jakarta, Indonesia</p>
+                    <p className="text-slate-300">Bekasi, Indonesia</p>
                     <p className="text-sm text-slate-400">Kantor Pusat</p>
                   </div>
                 </div>

@@ -12,8 +12,8 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: "1",
     name: "DzakCloud 2.0 Ubuntu",
-    price: 25000,
-    priceLabel: "Rp 25K/bulan",
+    price: 59000,
+    priceLabel: "Rp 59K/bulan",
     description: "Ideal untuk project kecil",
     features: [
       "1 vCPU",
@@ -28,8 +28,8 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: "2",
     name: "Dzakcloud 2.1 Ubuntu",
-    price: 50000,
-    priceLabel: "Rp 50K/bulan",
+    price: 80000,
+    priceLabel: "Rp 80K/bulan",
     description: "Paling populer untuk bisnis",
     features: [
       "1 vCPU",
@@ -43,8 +43,8 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: "3",
     name: "DzakCloud 2.2 Ubuntu",
-    price: 75000,
-    priceLabel: "Rp 75K/bulan",
+    price: 100000,
+    priceLabel: "Rp 100K/bulan",
     description: "Untuk operasi besar",
     features: [
       "2 vCPU",
@@ -59,8 +59,8 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: "4",
     name: "DzakCloud 2.3 Ubuntu",
-    price: 150000,
-    priceLabel: "Rp 150K/bulan",
+    price: 130000,
+    priceLabel: "Rp 130K/bulan",
     description: "Solusi korporat skala besar",
     features: [
       "2 vCPU",
@@ -74,12 +74,13 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: "5",
     name: "DzakCloud 2.4 Ubuntu",
-    price: 35000,
-    priceLabel: "Rp 35K/bulan",
+    price: 150000,
+    priceLabel: "Rp 150K/bulan",
     description: "Database management profesional",
     features: [
       "4 vCPU",
       "60 Storage",
+      "2 RAM",
       "Unlimited Bandwith",
       "24/7 Monitoring",
       "Version Kontak ke Kami",
@@ -89,13 +90,14 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: "6",
     name: "DzakCloud 2.5 Ubuntu",
-    price: 45000,
-    priceLabel: "Rp 45K/bulan",
+    price: 180000,
+    priceLabel: "Rp 180K/bulan",
     description: "Distribusi konten global",
     features: [
       "4 vCPU",
       "60 Storage",
       "24/7 Monitoring",
+      "4 RAM",
       "Unlimited Bandwith",
       "Version Kontak ke Kami",
     ],
@@ -326,10 +328,6 @@ export default function Services() {
                 Tim ahli kami siap membantu Anda merancang solusi cloud yang
                 sempurna untuk kebutuhan spesifik bisnis Anda.
               </p>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50">
-                  <button>Hubungi Tim Sales</button>
-                
-              </Button>
             </div>
           </div>
         </div>

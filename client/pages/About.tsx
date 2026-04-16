@@ -216,7 +216,7 @@ export default function About() {
                 {/* Text below logo - centered */}
                 <div className="text-center">
                   <p className="font-semibold text-xl md:text-2xl mb-1 text-white">
-                    DzakCloud
+                    DzakwanCorp
                   </p>
                   <p className="text-xs md:text-sm text-slate-400">
                     Cloud Solutions
@@ -294,7 +294,7 @@ export default function About() {
                         Lokasi
                       </p>
                       <p className="text-slate-300 text-xs md:text-sm">
-                        Jakarta, Indonesia
+                        Bekasi, Indonesia
                       </p>
                     </div>
                   </li>
@@ -362,9 +362,6 @@ export default function About() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mt-8 md:mt-12">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-2 md:py-3 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50 text-sm md:text-base">
-                Pelajari Lebih Lanjut
-              </Button>
               <Button
                 className={cn(
                   "px-6 md:px-8 py-2 md:py-3 transition-all duration-300 hover:shadow-lg text-sm md:text-base",
